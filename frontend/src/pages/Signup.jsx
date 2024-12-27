@@ -28,7 +28,7 @@ function Signup() {
       );
 
       toast.success("Registration successful!");
-      navigate("/login");
+      navigate("/signin");
     } catch (err) {
       toast.error(
         err.response ? err.response.data.message : "Something went wrong"
